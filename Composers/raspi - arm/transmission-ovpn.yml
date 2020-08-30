@@ -1,0 +1,34 @@
+version: '3.4'
+services:
+
+  transmission-ovpn:
+    container_name: transmission-openvpn
+    image: haugene/transmission-openvpn:latest-armhf
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+      - OPENVPN_PROVIDER=${OPENVPN_PROVIDER}
+      - OPENVPN_USERNAME=${OPENVPN_USERNAME}
+      - OPENVPN_PASSWORD=${OPENVPN_PASSWORD}
+      - OPENVPN_CONFIG=${OPENVPN_CONFIG}
+      - OPENVPN_OPTS=${OPENVPN_OPTS}
+      - LOCAL_NETWORK=${LOCAL_NETWORK}
+      - CREATE_TUN_DEVICE=true
+      - WEBPROXY_ENABLED=false
+    volumes:
+      - ${TORRENTS}:/data
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 9091:9091
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:9091"]
+        interval: 1m30s
+        timeout: 10s
+        retries: 3
+        start_period: 40s

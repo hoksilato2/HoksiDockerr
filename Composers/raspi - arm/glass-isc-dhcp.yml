@@ -1,0 +1,30 @@
+version: '3.4'
+services:
+
+  glass-isc-dhcp:
+    container_name: glass-isc-dhcp
+    image: djaydev/glass-isc-dhcp:armv7hf
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - TZ=${TZ}
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - ADMINPASSWORD=glassadmin
+      - WEBSOCKETPORT=8888
+      - WEBADMINPORT=3000
+    volumes:
+      - ${ROOT}/config/glass-isc-dhcp:/etc/dhcp
+      - ${ROOT}/config/glass-isc-dhcp/leases:/var/lib/dhcp
+      - ${ROOT}/config/glass-isc-dhcp/log:/var/log
+      - ${ROOT}/config/glass-isc-dhcp/glass-config:/opt/glass/config
+    ports:
+      - 3000:3000
+      - 8888:8888
+      - 67:67/udp
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:3000"]
+        interval: 1m30s
+        timeout: 10s
+        retries: 3
+        start_period: 40s

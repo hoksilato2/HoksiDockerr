@@ -1,0 +1,178 @@
+version: '3.4'
+services:
+
+  transmission-openvpn:
+    container_name: transmission-openvpn
+    image: haugene/transmission-openvpn:latest-armhf
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - OPENVPN_PROVIDER=${OPENVPN_PROVIDER}
+      - OPENVPN_USERNAME=${OPENVPN_USERNAME}
+      - OPENVPN_PASSWORD=${OPENVPN_PASSWORD}
+      - OPENVPN_CONFIG=${OPENVPN_CONFIG}
+      - OPENVPN_OPTS=${OPENVPN_OPTS}
+      - LOCAL_NETWORK=${LOCAL_NETWORK}
+      - CREATE_TUN_DEVICE=true
+      - WEBPROXY_ENABLED=false
+    volumes:
+      - ${TORRENTS}:/data
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 9091:9091
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:9091"]
+        interval: 1m30s
+        timeout: 10s
+        retries: 3
+        start_period: 40s
+
+
+  jackett:
+    container_name: jackett
+    image: linuxserver/jackett:latest
+    restart: unless-stopped
+#    network_mode: host
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${TORRENTS}:/data # place where to put .torrent files for manual download
+      - ${ROOT}/config/jackett:/config # config files
+    ports:
+      - 9117:9117
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:9117"]
+        interval: 1m30s
+        timeout: 10s
+        retries: 3
+        start_period: 40s
+
+  sonarr:
+    container_name: sonarr
+    image: linuxserver/sonarr:latest
+    restart: unless-stopped
+#    network_mode: host
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/config/sonarr:/config # config files
+      - ${TVSHOWS}:/tv # tv shows folder
+      - ${TORRENTS}:/data # download folder
+    ports:
+      - 8989:8989
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:8989"]
+        interval: 1m30s
+        timeout: 10s
+        retries: 3
+        start_period: 40s
+
+  radarr:
+    container_name: radarr
+    image: linuxserver/radarr:latest
+    restart: unless-stopped
+#    network_mode: host
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/config/radarr:/config # config files
+      - ${MOVIES}:/movies # movies folder
+      - ${TVSHOWS}:/tv
+#      - ${MOVIESHD}:/movies/HD
+#      - ${ANIME}:/movies/Animacion
+#      - ${MOVIES3D}:/movies/3D      
+      - ${TORRENTS}:/data # download folder
+    ports:
+      - 7878:7878
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:7878"]
+        interval: 1m30s
+        timeout: 10s
+        retries: 3
+        start_period: 40s
+
+  bazarr:
+    container_name: bazarr
+    image: linuxserver/bazarr
+    restart: unless-stopped
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - UMASK_SET=022 #optional
+    volumes:
+      - ${ROOT}/config/bazarr:/config
+      - ${MOVIES}:/movies
+      - ${TVSHOWS}:/tv
+    ports:
+      - 6767:6767
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:6767"]
+        interval: 1m30s
+        timeout: 10s
+        retries: 3
+        start_period: 40s
+        
+  watchtower: #autoupdater del resto de containers
+    container_name: watchtower
+    image: containrrr/watchtower:armhf-latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 300 #revisa cada 5min
+
+#  plex-server:
+#    container_name: plex-server
+#    image: plexinc/pms-docker:latest
+#    restart: unless-stopped
+#    environment:
+#      - TZ=${TZ}
+#    network_mode: host
+#    volumes:
+#      - ${ROOT}/config/plex/db:/config # plex database
+#      - ${ROOT}/config/plex/transcode:/transcode # temp transcoded files
+#      - ${ROOT}/complete:/data # media library
+
+
+#  glass-isc-dhcp:
+#    container_name: glass-isc-dhcp
+#   image: djaydev/glass-isc-dhcp:armv7hf
+#    restart: unless-stopped
+#    network_mode: host
+#    environment:
+#      - TZ=${TZ}
+#      - PUID=${PUID}
+#      - PGID=${PGID}
+#      - ADMINPASSWORD=glassadmin
+#      - WEBSOCKETPORT=8888
+#      - WEBADMINPORT=3000
+#    volumes:
+#      - ${ROOT}/config/glass-isc-dhcp:/etc/dhcp
+#      - ${ROOT}/config/glass-isc-dhcp/leases:/var/lib/dhcp
+#      - ${ROOT}/config/glass-isc-dhcp/log:/var/log
+#      - ${ROOT}/config/glass-isc-dhcp/glass-config:/opt/glass/config
+#    ports:
+#      - 3000:3000
+#      - 8888:8888
+#      - 67:67/udp
+#    healthcheck:
+#        test: ["CMD", "curl", "-f", "http://localhost:3000"]
+#        interval: 1m30s
+#        timeout: 10s
+#        retries: 3
+#        start_period: 40s
+
