@@ -11,7 +11,9 @@
 
 ## Instrucciones para Linux
 1. Instalar Docker
-2. 
+2. Instalar Docker Compose
+3. Clonar este git: git clone https://github.com/hoksilato2/HoksiDockerr
+4. 
 
 ## Instrucciones para Raspberry Pi
 1. Seguir indicaciones hasta punto X
