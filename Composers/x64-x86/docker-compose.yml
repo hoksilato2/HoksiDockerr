@@ -137,8 +137,8 @@ services:
         retries: 3
         start_period: 40s
     command: >
-        sh -c  "chown -R abc:abc /movies &&
-                chown -R abc:abc /tv"
+        sh -c  "chown -R abc:abc /movies/ &&
+                chown -R abc:abc /tv/"
         
   watchtower: #autoupdater del resto de containers
     container_name: watchtower
