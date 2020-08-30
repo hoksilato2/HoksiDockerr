@@ -55,6 +55,9 @@ services:
         timeout: 10s
         retries: 3
         start_period: 40s
+    command: >
+        sh -c  "chown -R abc:abc /movies &&
+                chown -R abc:abc /tv"
 
   sonarr:
     container_name: sonarr
@@ -78,7 +81,10 @@ services:
         timeout: 10s
         retries: 3
         start_period: 40s
-
+    command: >
+        sh -c  "chown -R abc:abc /movies &&
+                chown -R abc:abc /tv"
+                
   radarr:
     container_name: radarr
     image: linuxserver/radarr:latest
@@ -105,6 +111,9 @@ services:
         timeout: 10s
         retries: 3
         start_period: 40s
+    command: >
+        sh -c  "chown -R abc:abc /movies &&
+                chown -R abc:abc /tv"
 
   bazarr:
     container_name: bazarr
@@ -127,6 +136,9 @@ services:
         timeout: 10s
         retries: 3
         start_period: 40s
+    command: >
+        sh -c  "chown -R abc:abc /movies &&
+                chown -R abc:abc /tv"
         
   watchtower: #autoupdater del resto de containers
     container_name: watchtower

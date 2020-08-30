@@ -1,0 +1,519 @@
+2020-08-30 17:55:38.7270 Info Starting Jackett v0.16.1045.0 
+2020-08-30 17:55:39.1475 Info Environment version: 3.1.7 (/app/Jackett/) 
+2020-08-30 17:55:39.1475 Info OS version: Unix 4.19.104.0 (64bit OS) (64bit process) 
+2020-08-30 17:55:39.1475 Info Jackett variant: CoreLinuxAmdx64 
+2020-08-30 17:55:39.1475 Info File /etc/issue: Ubuntu 18.04.5 LTS \n \l 
+2020-08-30 17:55:39.1475 Info Running in Docker: Yes 
+2020-08-30 17:55:39.1475 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2020-08-30 17:55:39.1475 Info App config/log directory: /config/Jackett 
+2020-08-30 17:55:39.1475 Info Using Proxy: No 
+2020-08-30 17:55:39.1475 Info Using HTTP Client: HttpWebClient2NetCore 
+2020-08-30 17:55:39.2540 Info Loading Cardigann definitions from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2020-08-30 17:55:40.4656 Info Cardigann definitions loaded: abnormal, alpharatio, anidex, anidub, animebytes, animetorrents, anthelion, avistaz, awesomehd, bakabt, bb, bitcityreloaded, bithdtv, bjshare, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, corsarored, danishbits, dicmusic, digitalcore, digitalhive, divxtotal, elitetracker, epublibre, exoticaz, filelist, funfile, fuzer, gazellegames, gimmepeers, hdbitsapi, hdonly, hdspace, hdtorrents, hebits, horriblesubs, icetorrent, immortalseed, internetarchive, iptorrents, lostfilm, mejortorrent, milkie, morethantv, myamity, myanonamouse, ncore, nebulance, newpct, newrealworld, norbits, nordicbits, notwhatcd, orpheus, partis, passthepopcorn, pier720, piratethenet, pixelhd, polishtracker, pornolab, pretome, privatehd, psytorrents, rarbg, redacted, revolutiontt, rutracker, scenefz, scenehd, scenetime, secretcinema, shazbat, showrss, solidtorrents, speedcd, superbits, toloka, torrentbytes, torrentday, torrentech, torrentheaven, torrentleech, torrentnetwork, torrentscsv, torrentseeds, torrentsyndikat, tvstore, tvvault, xspeeds, xthor, xtremezone, yts, animetosho, dark-shadow, retroflix, unionfansub, hdc, rapidzona, libranet, cpasbienclone, 0daykiev, mteamtp2fa, leaguehd, soulvoice, mvgroupforum, theoccult, casatorrent, yggtorrent, 3dtorrents, metaltracker, rainbowtracker, torrent9, bitspyder, hdroute, 7torrents, Das-Unerwartete, selezen, oxtorrent, finvip, btsow, torrentproject2, kinozal, prostylex, spacetorrent, focusx, beyond-hd-oneurl, cinemamovies, btschool, puntorrent, hdreactor, kickasstorrent-kathow, pussytorrents, hd4fans, torrentdownload, film-paleis, ccfbits, RockBox, filebase, shellife, onlineselfeducation, torrentccf, pctorrent, gay-torrentsorg, rintor, skytorrentsclone, efectodoppler, ttsweb, legacyhd, yourbittorrent, asgaard, chdbits, oshenpt, isohunt2, theshow, torrentkitty, mactorrents, downloadville, scenerush, aither, nyaasi, torrentlt, fouducinema, cpasbien, galeriens, cartoonchaos, divteam, p2pbg, nitro, hdcity, 2fast4you, horrorsite, iv-torrents, crnaberza, dmhy, empornium, datascene, arenabg, sosulki, zooqle, btetree, microbit, audionews, hdchina, finelite, acidlounge, thevault, hdarea, teamhd, bithumen, elitetorrent-biz, sktorrent-org, turktorrent, glodls, r3vwtf, chilebt, wdt, uhdbits, rus-media, torrent-turk, aftershock, tokyotosho, funkytorrents, concen, vhstapes, erzsebet, world-of-tomorrow, crazyspirits, snowpt, tjupt, totheglorycookie, noname-club, casstudiotv, brasiltracker, pthome, crazyhd, torrentgalaxyorg, sdbits, sdkino, bit-titan, torrentseed, speedtorrentreloaded, majomparade, beyond-hd, peersfm, racing4everyone, idope, sukebei-pantsu, girotorrent, femdomcult, pornotor, mma-torrents, 1337x, cztorrent, racingforme, leporno, cinematik, filmsclub, ethor, torrentz2k, xwtclassics, turkseed, thegeeks, hdbits, 32pages, linuxtracker, pornleech, eztv, magico, darmowetorenty, torrentquest, brobits, lesaloon, ilcorsaroblu, bwtorrents, marinetracker, hdforever, hdcenter, torrentoyunindir, ourbits, 3evils, xiteme, muziekfabriek, extratorrent-cd, kinonavse100, pornbay, gay-torrents, p2pelite, dragonworldreloaded, limetorrents, booktracker, nethd, hddolby, firebit, alexfilm, boxingtorrents, torrent-pirat, diablotorrent, theplace, pornbits, tapochek, generationfree, hush, pleasuredome, desitorrents, magnetdl, amigosshare, torrentfunk, torrentland, sukebeinyaasi, pt99, empornium2fa, tellytorrent, newstudio, uniondht, korsar, yggcookie, frozenlayer, rutracker-ru, mypornclub, gktorrent, newretro, pterclub, theempire, hdu, fullmixmusic, pornolive, shareisland, deildu, lechaudron, magnet4you, ettv, trancetraffic, takeabyte, hdhome, trezzor, classix, ibit, moecat, rustorka, audiobookbay, concertos, sktorrent, extremebits, hachede, ilcorsaronero, seedfile, wihd, redstartorrent, academictorrents, kaztorka, speedmasterhd, kinorun, immortuos, eniahd, mvgroupmain, unlimitz, totheglory, btdigg, torrenthr, bigfangroup, topnow, torrentdb, arabp2p, hdturk, netcosmo, btdb, acgsou, sportscult, soundpark, yingk, liaorencili, theshinning, tekno3d, learnflakes, twilight, ast4u, losslessclub, twilightszoom, omgwtftrackr, arabafenice, hdbitscom, shareuniversity, xxxtorrents, thehorrorcharnel, btnext, underverse, ebookparadijs, Bittorrentfiles, dxp, kapaki, extremetorrents, lastfiles, purovicio, torrentleech-pl, exkinoray, torrenting, ptsbao, demonoid, hamsterstudio, hdme, rutor, newstudiol, torrentdownloads, onlyscene, ebooks-shares, ydypt, torrent-explosiv, itorrent, anisource, netlab, witchhunter, torrentv, nyaa-pantsu, bluebirdhd, rptorrents, fantasticheaven, Channelx, erzsebetpl, cinemageddon, 4thd, hdtime, nntt, acgrip, parnuxi, underversel, beitai, esharenet, piratbitl, haidan, bigtorrent, xbytesv2, xfsub, teamos, monova, torrent9clone, torlock, jptv, cooltorrent, bitturk, onejav, keepfriends, pornforall, toros, thefallingangels, 52pt, backups, pwtorrents, sharewood, vizuk, audiobooktorrents, uniongang, insanetracker, btgigs, pixelcove, xxxtor, carpathians, torrentbomb, jpopsuki, documentarytorrents, gfxpeers, gaytorrentru, desireleasers, siambit, dxdhd, ehentai, moviesdvdr, fanoin, ptfiles, mononokebt, bigtower, exttorrents, hddisk, pirateiro, tribalmixes, bithorlo, broadcity, baibako, hon3yhd, hdstreet, torrentz2, kickasstorrent, estone, dimeadozen, asiancinema, hdtorrentsit, hqsource, torrentbd, scenepalace, blutopia, tlfbits, myspleen, springsunday, greekteam, torrentslocal, tenyardtracker, 3changtrai, hdolimpo, tasmanit, riperam, darktracker, ptmsg, bteye, romanianmetaltorrents, torrentfactory, torrentview, hdspain, ztracker, pornorip, bibliotik, sexypics, polishsource, linkomanija, nbtorrents, piratbit, shokweb, zetorrents, torrentparadise, spiritofrevolution, zamundanet, bitru, torrentsectorcrew, zelkaorg, hdsky, gigatorrents, torrent4you, movcr, aniRena, thepiratebay, proaudiotorrents, gamestorrents, theaudioscene, karagarga, hdzone, legittorrents, epizod, xwtorrents, mteamtp, u2, totallykids, extremlymtorrents, freetorrent, tvchaosuk 
+2020-08-30 17:55:40.4656 Info Adding aggregate indexer 
+2020-08-30 17:55:40.5633 Warn No XML encryptor configured. Key {e0a9d3fe-7964-48de-a39b-3c139081abb9} may be persisted to storage in unencrypted form. 
+2020-08-30 17:55:40.5633 Warn No XML encryptor configured. Key {e0a9d3fe-7964-48de-a39b-3c139081abb9} may be persisted to storage in unencrypted form. 
+2020-08-30 17:55:40.5953 Info Jackett startup finished in 2.604 s 
+2020-08-30 18:05:57.3803 Info Starting Jackett v0.16.1045.0 
+2020-08-30 18:05:57.8378 Info Environment version: 3.1.7 (/app/Jackett/) 
+2020-08-30 18:05:57.8378 Info OS version: Unix 4.19.104.0 (64bit OS) (64bit process) 
+2020-08-30 18:05:57.8378 Info Jackett variant: CoreLinuxAmdx64 
+2020-08-30 18:05:57.8378 Info File /etc/issue: Ubuntu 18.04.5 LTS \n \l 
+2020-08-30 18:05:57.8378 Info Running in Docker: Yes 
+2020-08-30 18:05:57.8378 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2020-08-30 18:05:57.8378 Info App config/log directory: /config/Jackett 
+2020-08-30 18:05:57.8378 Info Using Proxy: No 
+2020-08-30 18:05:57.8378 Info Using HTTP Client: HttpWebClient2NetCore 
+2020-08-30 18:05:57.9470 Info Loading Cardigann definitions from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2020-08-30 18:05:59.2797 Info Cardigann definitions loaded: abnormal, alpharatio, anidex, anidub, animebytes, animetorrents, anthelion, avistaz, awesomehd, bakabt, bb, bitcityreloaded, bithdtv, bjshare, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, corsarored, danishbits, dicmusic, digitalcore, digitalhive, divxtotal, elitetracker, epublibre, exoticaz, filelist, funfile, fuzer, gazellegames, gimmepeers, hdbitsapi, hdonly, hdspace, hdtorrents, hebits, horriblesubs, icetorrent, immortalseed, internetarchive, iptorrents, lostfilm, mejortorrent, milkie, morethantv, myamity, myanonamouse, ncore, nebulance, newpct, newrealworld, norbits, nordicbits, notwhatcd, orpheus, partis, passthepopcorn, pier720, piratethenet, pixelhd, polishtracker, pornolab, pretome, privatehd, psytorrents, rarbg, redacted, revolutiontt, rutracker, scenefz, scenehd, scenetime, secretcinema, shazbat, showrss, solidtorrents, speedcd, superbits, toloka, torrentbytes, torrentday, torrentech, torrentheaven, torrentleech, torrentnetwork, torrentscsv, torrentseeds, torrentsyndikat, tvstore, tvvault, xspeeds, xthor, xtremezone, yts, animetosho, dark-shadow, retroflix, unionfansub, hdc, rapidzona, libranet, cpasbienclone, 0daykiev, mteamtp2fa, leaguehd, soulvoice, mvgroupforum, theoccult, casatorrent, yggtorrent, 3dtorrents, metaltracker, rainbowtracker, torrent9, bitspyder, hdroute, 7torrents, Das-Unerwartete, selezen, oxtorrent, finvip, btsow, torrentproject2, kinozal, prostylex, spacetorrent, focusx, beyond-hd-oneurl, cinemamovies, btschool, puntorrent, hdreactor, kickasstorrent-kathow, pussytorrents, hd4fans, torrentdownload, film-paleis, ccfbits, RockBox, filebase, shellife, onlineselfeducation, torrentccf, pctorrent, gay-torrentsorg, rintor, skytorrentsclone, efectodoppler, ttsweb, legacyhd, yourbittorrent, asgaard, chdbits, oshenpt, isohunt2, theshow, torrentkitty, mactorrents, downloadville, scenerush, aither, nyaasi, torrentlt, fouducinema, cpasbien, galeriens, cartoonchaos, divteam, p2pbg, nitro, hdcity, 2fast4you, horrorsite, iv-torrents, crnaberza, dmhy, empornium, datascene, arenabg, sosulki, zooqle, btetree, microbit, audionews, hdchina, finelite, acidlounge, thevault, hdarea, teamhd, bithumen, elitetorrent-biz, sktorrent-org, turktorrent, glodls, r3vwtf, chilebt, wdt, uhdbits, rus-media, torrent-turk, aftershock, tokyotosho, funkytorrents, concen, vhstapes, erzsebet, world-of-tomorrow, crazyspirits, snowpt, tjupt, totheglorycookie, noname-club, casstudiotv, brasiltracker, pthome, crazyhd, torrentgalaxyorg, sdbits, sdkino, bit-titan, torrentseed, speedtorrentreloaded, majomparade, beyond-hd, peersfm, racing4everyone, idope, sukebei-pantsu, girotorrent, femdomcult, pornotor, mma-torrents, 1337x, cztorrent, racingforme, leporno, cinematik, filmsclub, ethor, torrentz2k, xwtclassics, turkseed, thegeeks, hdbits, 32pages, linuxtracker, pornleech, eztv, magico, darmowetorenty, torrentquest, brobits, lesaloon, ilcorsaroblu, bwtorrents, marinetracker, hdforever, hdcenter, torrentoyunindir, ourbits, 3evils, xiteme, muziekfabriek, extratorrent-cd, kinonavse100, pornbay, gay-torrents, p2pelite, dragonworldreloaded, limetorrents, booktracker, nethd, hddolby, firebit, alexfilm, boxingtorrents, torrent-pirat, diablotorrent, theplace, pornbits, tapochek, generationfree, hush, pleasuredome, desitorrents, magnetdl, amigosshare, torrentfunk, torrentland, sukebeinyaasi, pt99, empornium2fa, tellytorrent, newstudio, uniondht, korsar, yggcookie, frozenlayer, rutracker-ru, mypornclub, gktorrent, newretro, pterclub, theempire, hdu, fullmixmusic, pornolive, shareisland, deildu, lechaudron, magnet4you, ettv, trancetraffic, takeabyte, hdhome, trezzor, classix, ibit, moecat, rustorka, audiobookbay, concertos, sktorrent, extremebits, hachede, ilcorsaronero, seedfile, wihd, redstartorrent, academictorrents, kaztorka, speedmasterhd, kinorun, immortuos, eniahd, mvgroupmain, unlimitz, totheglory, btdigg, torrenthr, bigfangroup, topnow, torrentdb, arabp2p, hdturk, netcosmo, btdb, acgsou, sportscult, soundpark, yingk, liaorencili, theshinning, tekno3d, learnflakes, twilight, ast4u, losslessclub, twilightszoom, omgwtftrackr, arabafenice, hdbitscom, shareuniversity, xxxtorrents, thehorrorcharnel, btnext, underverse, ebookparadijs, Bittorrentfiles, dxp, kapaki, extremetorrents, lastfiles, purovicio, torrentleech-pl, exkinoray, torrenting, ptsbao, demonoid, hamsterstudio, hdme, rutor, newstudiol, torrentdownloads, onlyscene, ebooks-shares, ydypt, torrent-explosiv, itorrent, anisource, netlab, witchhunter, torrentv, nyaa-pantsu, bluebirdhd, rptorrents, fantasticheaven, Channelx, erzsebetpl, cinemageddon, 4thd, hdtime, nntt, acgrip, parnuxi, underversel, beitai, esharenet, piratbitl, haidan, bigtorrent, xbytesv2, xfsub, teamos, monova, torrent9clone, torlock, jptv, cooltorrent, bitturk, onejav, keepfriends, pornforall, toros, thefallingangels, 52pt, backups, pwtorrents, sharewood, vizuk, audiobooktorrents, uniongang, insanetracker, btgigs, pixelcove, xxxtor, carpathians, torrentbomb, jpopsuki, documentarytorrents, gfxpeers, gaytorrentru, desireleasers, siambit, dxdhd, ehentai, moviesdvdr, fanoin, ptfiles, mononokebt, bigtower, exttorrents, hddisk, pirateiro, tribalmixes, bithorlo, broadcity, baibako, hon3yhd, hdstreet, torrentz2, kickasstorrent, estone, dimeadozen, asiancinema, hdtorrentsit, hqsource, torrentbd, scenepalace, blutopia, tlfbits, myspleen, springsunday, greekteam, torrentslocal, tenyardtracker, 3changtrai, hdolimpo, tasmanit, riperam, darktracker, ptmsg, bteye, romanianmetaltorrents, torrentfactory, torrentview, hdspain, ztracker, pornorip, bibliotik, sexypics, polishsource, linkomanija, nbtorrents, piratbit, shokweb, zetorrents, torrentparadise, spiritofrevolution, zamundanet, bitru, torrentsectorcrew, zelkaorg, hdsky, gigatorrents, torrent4you, movcr, aniRena, thepiratebay, proaudiotorrents, gamestorrents, theaudioscene, karagarga, hdzone, legittorrents, epizod, xwtorrents, mteamtp, u2, totallykids, extremlymtorrents, freetorrent, tvchaosuk 
+2020-08-30 18:05:59.2797 Info Adding aggregate indexer 
+2020-08-30 18:05:59.4058 Info Jackett startup finished in 2.814 s 
+2020-08-30 18:19:37.8521 Error System.Exception: Found 0 releases!
+   at Jackett.Common.Indexers.NewPCT.ApplyConfiguration(JToken configJson) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/NewPCT.cs:line 159
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 94
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26 System.Exception: Found 0 releases!
+   at Jackett.Common.Indexers.NewPCT.ApplyConfiguration(JToken configJson) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/NewPCT.cs:line 159
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 94
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+2020-08-30 18:21:07.6346 Error System.Exception: Found 0 releases!
+   at Jackett.Common.Indexers.NewPCT.ApplyConfiguration(JToken configJson) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/NewPCT.cs:line 159
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 94
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26 System.Exception: Found 0 releases!
+   at Jackett.Common.Indexers.NewPCT.ApplyConfiguration(JToken configJson) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/NewPCT.cs:line 159
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 94
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+2020-08-30 18:22:05.8781 Error On attempt 1 checking for results from Cinecalidad: The SSL connection could not be established, see inner exception. 
+2020-08-30 18:22:06.4223 Error On attempt 2 checking for results from Cinecalidad: The SSL connection could not be established, see inner exception. 
+2020-08-30 18:22:06.9588 Error On attempt 3 checking for results from Cinecalidad: The SSL connection could not be established, see inner exception. 
+2020-08-30 18:22:07.4532 Error System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Exception: certificate validation failed: [Subject]
+  CN=www.cinecalidad.is
+
+[Issuer]
+  CN="allot.com/emailAddress=info@allot.com", OU=Allot, O=Allot, L=Madrid, S=Madrid, C=ES
+
+[Serial Number]
+  1D8DBE5E00000000C418000000000000
+
+[Not Before]
+  12/16/2016 2:07:49 PM
+
+[Not After]
+  12/16/2026 2:07:49 PM
+
+[Thumbprint]
+  75925DABCB3BE0A3BEC4F87BC16965A1D7F1A1C7
+
+   at Jackett.Common.Utils.Clients.HttpWebClient2NetCore.ValidateCertificate(HttpRequestMessage request, X509Certificate2 certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2NetCore.cs:line 54
+   at System.Net.Http.ConnectHelper.<>c__DisplayClass3_0.<EstablishSslConnectionAsync>b__0(Object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+   at System.Net.Security.SslStream.UserCertValidationCallbackWrapper(String hostName, X509Certificate2 certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+   at System.Net.Security.SecureChannel.VerifyRemoteCertificate(RemoteCertValidationCallback remoteCertValidationCallback, ProtocolToken& alertToken)
+   at System.Net.Security.SslStream.CompleteHandshake(ProtocolToken& alertToken)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__65_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestStringWithCookiesAndRetry(String url, String cookieOverride, String referer, Dictionary`2 headers) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 469
+   at Jackett.Common.Indexers.Cinecalidad.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/Cinecalidad.cs:line 103
+   at Jackett.Common.Indexers.Cinecalidad.ApplyConfiguration(JToken configJson) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/Cinecalidad.cs:line 74
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 94
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 70 System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Exception: certificate validation failed: [Subject]
+  CN=www.cinecalidad.is
+
+[Issuer]
+  CN="allot.com/emailAddress=info@allot.com", OU=Allot, O=Allot, L=Madrid, S=Madrid, C=ES
+
+[Serial Number]
+  1D8DBE5E00000000C418000000000000
+
+[Not Before]
+  12/16/2016 2:07:49 PM
+
+[Not After]
+  12/16/2026 2:07:49 PM
+
+[Thumbprint]
+  75925DABCB3BE0A3BEC4F87BC16965A1D7F1A1C7
+
+   at Jackett.Common.Utils.Clients.HttpWebClient2NetCore.ValidateCertificate(HttpRequestMessage request, X509Certificate2 certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2NetCore.cs:line 54
+   at System.Net.Http.ConnectHelper.<>c__DisplayClass3_0.<EstablishSslConnectionAsync>b__0(Object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+   at System.Net.Security.SslStream.UserCertValidationCallbackWrapper(String hostName, X509Certificate2 certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+   at System.Net.Security.SecureChannel.VerifyRemoteCertificate(RemoteCertValidationCallback remoteCertValidationCallback, ProtocolToken& alertToken)
+   at System.Net.Security.SslStream.CompleteHandshake(ProtocolToken& alertToken)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__65_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestStringWithCookiesAndRetry(String url, String cookieOverride, String referer, Dictionary`2 headers) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 469
+   at Jackett.Common.Indexers.Cinecalidad.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/Cinecalidad.cs:line 103
+   at Jackett.Common.Indexers.Cinecalidad.ApplyConfiguration(JToken configJson) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/Cinecalidad.cs:line 74
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 94
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 70
+2020-08-30 18:35:30.8231 Info Fetching: https://1337x.to/cat/Movies/time/desc/1/ 
+2020-08-30 18:35:31.2486 Info Fetching: https://1337x.to/cat/TV/time/desc/1/ 
+2020-08-30 18:35:31.5953 Info Fetching: https://1337x.to/cat/Music/time/desc/1/ 
+2020-08-30 18:35:31.8030 Info Found 20 (1 new) releases from 1337x 
+2020-08-30 18:35:42.4576 Info Fetching: https://1337x.to/cat/Movies/time/desc/1/ 
+2020-08-30 18:35:42.7999 Info Fetching: https://1337x.to/cat/TV/time/desc/1/ 
+2020-08-30 18:35:43.1429 Info Fetching: https://1337x.to/cat/Music/time/desc/1/ 
+2020-08-30 18:35:43.4816 Info Found 20 (0 new) releases from 1337x 
+2020-08-30 18:36:11.6560 Info Found 100 (1 new) releases from RARBG 
+2020-08-30 18:36:14.3610 Info Found 100 (0 new) releases from RARBG 
+2020-08-30 18:36:42.2741 Info Fetching: https://newkatcr.co/v2/category/latest/1/6/ 
+2020-08-30 18:37:03.3701 Error Jackett.Common.IndexerException: Exception (kickasstorrent): Connection refused
+ ---> System.Net.Http.HttpRequestException: Connection refused
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at CloudflareSolverRe.ClearanceHandler.SendRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at CloudflareSolverRe.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Jackett.Common.Utils.Clients.HttpWebClient2NetCore.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2NetCore.cs:line 229
+   at Jackett.Common.Utils.Clients.WebClient.GetString(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 164
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestStringWithCookies(String url, String cookieOverride, String referer, Dictionary`2 headers) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 453
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1351
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 331
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 351
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 810
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 388 Jackett.Common.IndexerException: Exception (kickasstorrent): Connection refused
+ ---> System.Net.Http.HttpRequestException: Connection refused
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at CloudflareSolverRe.ClearanceHandler.SendRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at CloudflareSolverRe.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Jackett.Common.Utils.Clients.HttpWebClient2NetCore.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2NetCore.cs:line 229
+   at Jackett.Common.Utils.Clients.WebClient.GetString(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 164
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestStringWithCookies(String url, String cookieOverride, String referer, Dictionary`2 headers) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 453
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1351
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 331
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 351
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 810
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 388
+2020-08-30 18:37:48.1136 Info Fetching: https://kickass.ws/new/?field=time_add&sorder=desc 
+2020-08-30 18:37:48.7108 Info Found 14 (1 new) releases from KickAssTorrent (kat.li) 
+2020-08-30 18:37:51.2814 Info Fetching: https://kickass.ws/new/?field=time_add&sorder=desc 
+2020-08-30 18:37:51.7892 Info Found 14 (0 new) releases from KickAssTorrent (kat.li) 
+2020-08-30 18:38:24.5313 Info Found 99 (1 new) releases from MejorTorrent 
+2020-08-30 18:38:34.2257 Info Found 99 (0 new) releases from MejorTorrent 
+2020-08-30 18:38:51.0255 Info Fetching: https://www.elitetorrent.se/?s=&x=0&y=0 
+2020-08-30 18:38:51.2226 Info Fetching: https://www.elitetorrent.se/page/2/?s=&x=0&y=0 
+2020-08-30 18:38:51.3684 Info Fetching: https://www.elitetorrent.se/page/3/?s=&x=0&y=0 
+2020-08-30 18:38:51.4537 Error CardigannIndexer (elitetorrent-biz): Error while parsing row '
+<li>
+	<div class="imagen">
+		<a href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run" alt="Monster Run">
+			<img class="brighten lazyed" src="/wp-content/themes/EliteTorrent/images/lazy_placeholder.gif" data-src="/wp-content/uploads/portadas/1598511760-.jpg" border="0" title="Monster Run" alt="Monster Run">
+		</a>
+		<span class="marca estreno" id="idiomacio">
+			<i>
+				<img src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/lazing_new.gif" data-src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/vose.png" title="Pelicula en Ingles Subtitulado VOSE" alt="Pelicula en Ingles Subtitulado VOSE">
+			</i>
+		</span>
+		<span class="marca estreno" style="right: 0px;left: auto;max-width: 60%;">
+			<i>BRS</i>
+		</span>
+		<div class="voto1" title="Peso de pelicula" style="background-color:rgb(98,170,0)">
+			<span class="dig1">1.89 GBs</span>
+		</div>
+	</div>
+	<div class="meta">
+		<a class="nombre" href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run">Monster Run</a>
+	</div>
+</li>':
+
+System.Exception: Error while parsing field=category, selector=, value=: Object reference not set to an instance of an object.
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1618 
+2020-08-30 18:38:51.4605 Info Found 64 (1 new) releases from EliteTorrent.biz 
+2020-08-30 18:38:53.2412 Info Fetching: https://www.elitetorrent.se/?s=&x=0&y=0 
+2020-08-30 18:38:53.3320 Info Fetching: https://www.elitetorrent.se/page/2/?s=&x=0&y=0 
+2020-08-30 18:38:53.4245 Info Fetching: https://www.elitetorrent.se/page/3/?s=&x=0&y=0 
+2020-08-30 18:38:53.5111 Error CardigannIndexer (elitetorrent-biz): Error while parsing row '
+<li>
+	<div class="imagen">
+		<a href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run" alt="Monster Run">
+			<img class="brighten lazyed" src="/wp-content/themes/EliteTorrent/images/lazy_placeholder.gif" data-src="/wp-content/uploads/portadas/1598511760-.jpg" border="0" title="Monster Run" alt="Monster Run">
+		</a>
+		<span class="marca estreno" id="idiomacio">
+			<i>
+				<img src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/lazing_new.gif" data-src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/vose.png" title="Pelicula en Ingles Subtitulado VOSE" alt="Pelicula en Ingles Subtitulado VOSE">
+			</i>
+		</span>
+		<span class="marca estreno" style="right: 0px;left: auto;max-width: 60%;">
+			<i>BRS</i>
+		</span>
+		<div class="voto1" title="Peso de pelicula" style="background-color:rgb(98,170,0)">
+			<span class="dig1">1.89 GBs</span>
+		</div>
+	</div>
+	<div class="meta">
+		<a class="nombre" href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run">Monster Run</a>
+	</div>
+</li>':
+
+System.Exception: Error while parsing field=category, selector=, value=: Object reference not set to an instance of an object.
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1618 
+2020-08-30 18:38:53.5183 Info Found 64 (0 new) releases from EliteTorrent.biz 
+2020-08-30 18:41:00.1658 Info Fetching: https://kickass.ws/new/?field=time_add&sorder=desc 
+2020-08-30 18:41:00.7611 Info Found 14 (0 new) releases from KickAssTorrent (kat.li) 
+2020-08-30 18:41:02.1660 Info Fetching: https://1337x.to/cat/Movies/time/desc/1/ 
+2020-08-30 18:41:02.5727 Info Fetching: https://1337x.to/cat/TV/time/desc/1/ 
+2020-08-30 18:41:02.9097 Info Fetching: https://1337x.to/cat/Music/time/desc/1/ 
+2020-08-30 18:41:03.2487 Info Found 20 (0 new) releases from 1337x 
+2020-08-30 18:41:06.1667 Info Fetching: https://www.elitetorrent.se/?s=&x=0&y=0 
+2020-08-30 18:41:06.3090 Info Fetching: https://www.elitetorrent.se/page/2/?s=&x=0&y=0 
+2020-08-30 18:41:06.4629 Info Fetching: https://www.elitetorrent.se/page/3/?s=&x=0&y=0 
+2020-08-30 18:41:06.5577 Error CardigannIndexer (elitetorrent-biz): Error while parsing row '
+<li>
+	<div class="imagen">
+		<a href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run" alt="Monster Run">
+			<img class="brighten lazyed" src="/wp-content/themes/EliteTorrent/images/lazy_placeholder.gif" data-src="/wp-content/uploads/portadas/1598511760-.jpg" border="0" title="Monster Run" alt="Monster Run">
+		</a>
+		<span class="marca estreno" id="idiomacio">
+			<i>
+				<img src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/lazing_new.gif" data-src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/vose.png" title="Pelicula en Ingles Subtitulado VOSE" alt="Pelicula en Ingles Subtitulado VOSE">
+			</i>
+		</span>
+		<span class="marca estreno" style="right: 0px;left: auto;max-width: 60%;">
+			<i>BRS</i>
+		</span>
+		<div class="voto1" title="Peso de pelicula" style="background-color:rgb(98,170,0)">
+			<span class="dig1">1.89 GBs</span>
+		</div>
+	</div>
+	<div class="meta">
+		<a class="nombre" href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run">Monster Run</a>
+	</div>
+</li>':
+
+System.Exception: Error while parsing field=category, selector=, value=: Object reference not set to an instance of an object.
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1618 
+2020-08-30 18:41:06.5577 Info Found 64 (0 new) releases from EliteTorrent.biz 
+2020-08-30 18:41:08.2632 Info Found 0 (0 new) releases from RARBG 
+2020-08-30 18:41:12.0839 Info Found 99 (0 new) releases from MejorTorrent 
+2020-08-30 18:47:31.1963 Info Fetching: https://1337x.to/cat/Movies/time/desc/1/ 
+2020-08-30 18:47:31.6197 Info Fetching: https://1337x.to/cat/TV/time/desc/1/ 
+2020-08-30 18:47:31.9611 Info Fetching: https://1337x.to/cat/Music/time/desc/1/ 
+2020-08-30 18:47:32.3009 Info Found 20 (20 new) releases from 1337x 
+2020-08-30 18:47:35.2477 Info Fetching: https://1337x.to/cat/Movies/time/desc/1/ 
+2020-08-30 18:47:35.4526 Info Fetching: https://1337x.to/cat/TV/time/desc/1/ 
+2020-08-30 18:47:35.6463 Info Fetching: https://1337x.to/cat/Music/time/desc/1/ 
+2020-08-30 18:47:35.8423 Info Found 20 (0 new) releases from 1337x 
+2020-08-30 18:47:56.1938 Info Found 100 (100 new) releases from RARBG 
+2020-08-30 18:47:58.8337 Info Found 100 (0 new) releases from RARBG 
+2020-08-30 18:48:17.0948 Info Fetching: https://kickass.ws/new/?field=time_add&sorder=desc 
+2020-08-30 18:48:17.6925 Info Found 19 (19 new) releases from KickAssTorrent (kat.li) 
+2020-08-30 18:48:19.0953 Info Fetching: https://kickass.ws/new/?field=time_add&sorder=desc 
+2020-08-30 18:48:19.5801 Info Found 19 (0 new) releases from KickAssTorrent (kat.li) 
+2020-08-30 18:49:02.1534 Info Fetching: https://www.elitetorrent.se/?s=&x=0&y=0 
+2020-08-30 18:49:02.2966 Info Fetching: https://www.elitetorrent.se/page/2/?s=&x=0&y=0 
+2020-08-30 18:49:02.3894 Info Fetching: https://www.elitetorrent.se/page/3/?s=&x=0&y=0 
+2020-08-30 18:49:02.4820 Error CardigannIndexer (elitetorrent-biz): Error while parsing row '
+<li>
+	<div class="imagen">
+		<a href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run" alt="Monster Run">
+			<img class="brighten lazyed" src="/wp-content/themes/EliteTorrent/images/lazy_placeholder.gif" data-src="/wp-content/uploads/portadas/1598511760-.jpg" border="0" title="Monster Run" alt="Monster Run">
+		</a>
+		<span class="marca estreno" id="idiomacio">
+			<i>
+				<img src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/lazing_new.gif" data-src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/vose.png" title="Pelicula en Ingles Subtitulado VOSE" alt="Pelicula en Ingles Subtitulado VOSE">
+			</i>
+		</span>
+		<span class="marca estreno" style="right: 0px;left: auto;max-width: 60%;">
+			<i>BRS</i>
+		</span>
+		<div class="voto1" title="Peso de pelicula" style="background-color:rgb(98,170,0)">
+			<span class="dig1">1.89 GBs</span>
+		</div>
+	</div>
+	<div class="meta">
+		<a class="nombre" href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run">Monster Run</a>
+	</div>
+</li>':
+
+System.Exception: Error while parsing field=category, selector=, value=: Object reference not set to an instance of an object.
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1618 
+2020-08-30 18:49:02.4935 Info Found 25 (25 new) releases from EliteTorrent.biz 
+2020-08-30 18:49:04.1539 Info Fetching: https://www.elitetorrent.se/?s=&x=0&y=0 
+2020-08-30 18:49:04.2972 Info Fetching: https://www.elitetorrent.se/page/2/?s=&x=0&y=0 
+2020-08-30 18:49:04.3881 Info Fetching: https://www.elitetorrent.se/page/3/?s=&x=0&y=0 
+2020-08-30 18:49:04.4734 Error CardigannIndexer (elitetorrent-biz): Error while parsing row '
+<li>
+	<div class="imagen">
+		<a href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run" alt="Monster Run">
+			<img class="brighten lazyed" src="/wp-content/themes/EliteTorrent/images/lazy_placeholder.gif" data-src="/wp-content/uploads/portadas/1598511760-.jpg" border="0" title="Monster Run" alt="Monster Run">
+		</a>
+		<span class="marca estreno" id="idiomacio">
+			<i>
+				<img src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/lazing_new.gif" data-src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/vose.png" title="Pelicula en Ingles Subtitulado VOSE" alt="Pelicula en Ingles Subtitulado VOSE">
+			</i>
+		</span>
+		<span class="marca estreno" style="right: 0px;left: auto;max-width: 60%;">
+			<i>BRS</i>
+		</span>
+		<div class="voto1" title="Peso de pelicula" style="background-color:rgb(98,170,0)">
+			<span class="dig1">1.89 GBs</span>
+		</div>
+	</div>
+	<div class="meta">
+		<a class="nombre" href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run">Monster Run</a>
+	</div>
+</li>':
+
+System.Exception: Error while parsing field=category, selector=, value=: Object reference not set to an instance of an object.
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1618 
+2020-08-30 18:49:04.4822 Info Found 25 (0 new) releases from EliteTorrent.biz 
+2020-08-30 18:49:29.2752 Info Found 9 (9 new) releases from MejorTorrent 
+2020-08-30 18:49:31.2045 Info Found 9 (0 new) releases from MejorTorrent 
+2020-08-30 18:56:00.0842 Info Fetching: https://1337x.to/cat/Movies/time/desc/1/ 
+2020-08-30 18:56:00.5009 Info Fetching: https://1337x.to/cat/TV/time/desc/1/ 
+2020-08-30 18:56:00.6997 Info Fetching: https://1337x.to/cat/Music/time/desc/1/ 
+2020-08-30 18:56:01.0363 Info Found 20 (1 new) releases from 1337x 
+2020-08-30 18:56:02.0838 Info Fetching: https://kickass.ws/new/?field=time_add&sorder=desc 
+2020-08-30 18:56:02.8435 Info Found 19 (0 new) releases from KickAssTorrent (kat.li) 
+2020-08-30 18:56:04.0844 Info Fetching: https://www.elitetorrent.se/?s=&x=0&y=0 
+2020-08-30 18:56:04.2877 Info Fetching: https://www.elitetorrent.se/page/2/?s=&x=0&y=0 
+2020-08-30 18:56:04.3787 Info Fetching: https://www.elitetorrent.se/page/3/?s=&x=0&y=0 
+2020-08-30 18:56:04.4642 Error CardigannIndexer (elitetorrent-biz): Error while parsing row '
+<li>
+	<div class="imagen">
+		<a href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run" alt="Monster Run">
+			<img class="brighten lazyed" src="/wp-content/themes/EliteTorrent/images/lazy_placeholder.gif" data-src="/wp-content/uploads/portadas/1598511760-.jpg" border="0" title="Monster Run" alt="Monster Run">
+		</a>
+		<span class="marca estreno" id="idiomacio">
+			<i>
+				<img src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/lazing_new.gif" data-src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/vose.png" title="Pelicula en Ingles Subtitulado VOSE" alt="Pelicula en Ingles Subtitulado VOSE">
+			</i>
+		</span>
+		<span class="marca estreno" style="right: 0px;left: auto;max-width: 60%;">
+			<i>BRS</i>
+		</span>
+		<div class="voto1" title="Peso de pelicula" style="background-color:rgb(98,170,0)">
+			<span class="dig1">1.89 GBs</span>
+		</div>
+	</div>
+	<div class="meta">
+		<a class="nombre" href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run">Monster Run</a>
+	</div>
+</li>':
+
+System.Exception: Error while parsing field=category, selector=, value=: Object reference not set to an instance of an object.
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1618 
+2020-08-30 18:56:04.4711 Info Found 25 (0 new) releases from EliteTorrent.biz 
+2020-08-30 18:56:08.4966 Info Found 9 (0 new) releases from MejorTorrent 
+2020-08-30 18:56:08.7421 Info Found 0 (0 new) releases from RARBG 
+2020-08-30 18:56:31.0293 Info Fetching: https://1337x.to/cat/Movies/time/desc/1/ 
+2020-08-30 18:56:31.2309 Info Fetching: https://1337x.to/cat/TV/time/desc/1/ 
+2020-08-30 18:56:31.5838 Info Fetching: https://1337x.to/cat/Music/time/desc/1/ 
+2020-08-30 18:56:31.9261 Info Found 20 (1 new) releases from 1337x 
+2020-08-30 18:56:33.1627 Info Found 100 (5 new) releases from RARBG 
+2020-08-30 18:56:35.0290 Info Fetching: https://kickass.ws/new/?field=time_add&sorder=desc 
+2020-08-30 18:56:35.4019 Info Found 14 (0 new) releases from KickAssTorrent (kat.li) 
+2020-08-30 18:56:39.0299 Info Fetching: https://www.elitetorrent.se/?s=&x=0&y=0 
+2020-08-30 18:56:39.1740 Info Fetching: https://www.elitetorrent.se/page/2/?s=&x=0&y=0 
+2020-08-30 18:56:39.2691 Info Fetching: https://www.elitetorrent.se/page/3/?s=&x=0&y=0 
+2020-08-30 18:56:39.4092 Error CardigannIndexer (elitetorrent-biz): Error while parsing row '
+<li>
+	<div class="imagen">
+		<a href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run" alt="Monster Run">
+			<img class="brighten lazyed" src="/wp-content/themes/EliteTorrent/images/lazy_placeholder.gif" data-src="/wp-content/uploads/portadas/1598511760-.jpg" border="0" title="Monster Run" alt="Monster Run">
+		</a>
+		<span class="marca estreno" id="idiomacio">
+			<i>
+				<img src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/lazing_new.gif" data-src="https://www.elitetorrent.se/wp-content/themes/EliteTorrent/images/vose.png" title="Pelicula en Ingles Subtitulado VOSE" alt="Pelicula en Ingles Subtitulado VOSE">
+			</i>
+		</span>
+		<span class="marca estreno" style="right: 0px;left: auto;max-width: 60%;">
+			<i>BRS</i>
+		</span>
+		<div class="voto1" title="Peso de pelicula" style="background-color:rgb(98,170,0)">
+			<span class="dig1">1.89 GBs</span>
+		</div>
+	</div>
+	<div class="meta">
+		<a class="nombre" href="https://www.elitetorrent.se/Monster+Run/103932-BRs-Subtitulado/" title="Monster Run">Monster Run</a>
+	</div>
+</li>':
+
+System.Exception: Error while parsing field=category, selector=, value=: Object reference not set to an instance of an object.
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1618 
+2020-08-30 18:56:39.4092 Info Found 64 (0 new) releases from EliteTorrent.biz 
+2020-08-30 18:56:45.1211 Info Found 99 (0 new) releases from MejorTorrent 
