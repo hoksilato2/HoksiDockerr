@@ -20,14 +20,17 @@
 4. Editar archivo con variables ".env":
    ``nano ./HoksiDockerr/Composers/x64-x86/.env``
 5. Cambiar los datos de VPN, IP de tu red, carpeta de configuración de las APPS y carpetas donde están tus videotecas en las siguientes variables:
-   ``ROOT=/home/user/HoksiDockerr
-   OPENVPN_PROVIDER=
-   OPENVPN_USERNAME=
-   OPENVPN_PASSWORD=
-   OPENVPN_CONFIG=
-   LOCAL_NETWORK=192.168.0.0/24
-   MOVIES=/media/Pelis
-   TVSHOWS=/media/Series``
+
+   ```
+   ROOT=/home/user/HoksiDockerr
+   OPENVPN_PROVIDER=   
+   OPENVPN_USERNAME=   
+   OPENVPN_PASSWORD=   
+   OPENVPN_CONFIG=  
+   LOCAL_NETWORK=192.168.0.0/24   
+   MOVIES=/media/Pelis   
+   TVSHOWS=/media/Series
+   ```
    
 6. Guardar con ctrl+X + y + enter
 7. Ubícate en la carpeta donde esta el archivo docker-compose.yml:
