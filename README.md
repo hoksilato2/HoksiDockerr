@@ -34,7 +34,7 @@
    ```
    
 7. Guardar con ctrl+X + y + enter
-8. Ubícate en la carpeta donde esta el archivo docker-compose.yml:
+8. Ubícate en la carpeta donde está el archivo docker-compose.yml:
    ``cd ./HoksiDockerr/Composers/x64-x86/``
 9. Instalar compose:
    ``docker-compose up -d``
