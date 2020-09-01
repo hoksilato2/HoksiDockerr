@@ -16,51 +16,57 @@ Pero en los siguientes apartados os pondré los pasos simplificándolo lo máxim
 
 ## Instrucciones para Ubuntu
 1. Instalar repositorio Docker usando el Terminal:
-```
-$ sudo apt-get update
+   ```
+   $ sudo apt-get update
 
-$ sudo apt-get install \
+   $ sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     gnupg-agent \
     software-properties-common
-```
+   ```
 
 2. Añadir clave oficial GPG de Docker:
-``$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -``
+   ```
+   $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   ```
 
 3. Configurar repositorio "stable":
-
-```
-$ sudo add-apt-repository \
+   ```
+   $ sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
-```
+   ```
 
 3. Instalar Docker-engine:
-```
- $ sudo apt-get update
- $ sudo apt-get install docker-ce docker-ce-cli containerd.io
- ```
+   ```
+   $ sudo apt-get update
+   $ sudo apt-get install docker-ce docker-ce-cli containerd.io
+   ```  
+5. Instalar Docker Compose:
+   ```$ sudo apt install docker-compose```
 
-4. Verificar la correcta instalación con ``$ sudo docker run hello-world``
+6. Verificar la correcta instalación con ``$ sudo docker run hello-world``
 
 
 También podéis usar otros métodos de instalación:
 https://docs.docker.com/engine/install/ubuntu/#installation-methods
 Para otras distribuciones es muy parecido.
 
+## Instrucciones para Raspberry Pi
+1. 
 
-2. Instalar Docker Compose:
 
-3. Ir al directorio donde queréis instalar HoksiDockerr (ejemplo: /home/user)
-4. Clonar este git: 
+## Instalar HoksiDockerr
+
+1. Ir al directorio donde queréis instalar HoksiDockerr (ejemplo: /home/user)
+2. Clonar este git: 
    ``$ git clone https://github.com/hoksilato2/HoksiDockerr``
-5. Editar archivo con variables ".env":
+3. Editar archivo con variables ".env":
    ``$ nano ./HoksiDockerr/Composers/x64-x86/.env``
-6. Cambiar los datos de VPN, IP de tu red, carpeta de configuración de las APPS y carpetas donde están tus videotecas en las siguientes variables:
+4. Cambiar los datos de VPN, IP de tu red, carpeta de configuración de las APPS y carpetas donde están tus videotecas en las siguientes variables:
 
    ```
    ROOT=/home/user/HoksiDockerr
@@ -73,21 +79,20 @@ Para otras distribuciones es muy parecido.
    TVSHOWS=/media/Series
    ```
    
-7. Guardar con ctrl+X + y + enter
-8. Ubícate en la carpeta donde está el archivo docker-compose.yml:
+5. Guardar con ctrl+X + y + enter
+6. Ubícate en la carpeta donde está el archivo docker-compose.yml:
    ``$ cd ./HoksiDockerr/Composers/x64-x86/``
-9. Instalar compose:
+7. Instalar compose:
    ``$ docker-compose up -d``
    
 Si no habéis hecho coincidir la ruta de ROOT (punto 5) con la carpeta del HoksiDockerr podéis copiar la carpeta config para ahorraros mucha configuración de las APPS:
  
-10. Parar todos los containers de docker:
+8. Parar todos los containers de docker:
    ``$ docker stop $(docker ps -a -q)``
-11. Copiar carpeta de configuración:
+9. Copiar carpeta de configuración:
    ``$ cp ./HoksiDockerr/config /home/user/HoksiDockerr/config``
 
 
 
-## Instrucciones para Raspberry Pi
-1. 
+
 
