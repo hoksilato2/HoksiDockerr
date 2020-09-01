@@ -6,15 +6,19 @@ https://docs.docker.com/engine/install/
 
 Pero en los siguientes apartados os pondré los pasos simplificándolo lo máximo posible:
 
-## Instrucciones para Windows 10 con WSL
+## Instalar Docker
+
+### Windows 10 con WSL
 
 1. Actualizar Windows 10 v2004 o superior
 2. Instalar WSL 2 usando powershell como admin: 
-   ``dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart``
+   ```
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   ```
 3. Descargar e instalar Docker Container de https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 4. Seguir indicaciones de Linux a partir del punto 3. Recomiendo usar la ruta /mnt/c/Users/username/ para guardar los archivos de configuración en vuestra C: o unidad y carpeta deseada.
 
-## Instrucciones para Ubuntu
+### Ubuntu
 1. Instalar repositorio Docker usando el Terminal:
    ```
    $ sudo apt-get update
@@ -46,7 +50,9 @@ Pero en los siguientes apartados os pondré los pasos simplificándolo lo máxim
    $ sudo apt-get install docker-ce docker-ce-cli containerd.io
    ```  
 5. Instalar Docker Compose:
-   ```$ sudo apt install docker-compose```
+   ```
+   $ sudo apt install docker-compose
+   ```
 
 6. Verificar la correcta instalación con ``$ sudo docker run hello-world``
 
@@ -55,17 +61,28 @@ También podéis usar otros métodos de instalación:
 https://docs.docker.com/engine/install/ubuntu/#installation-methods
 Para otras distribuciones es muy parecido.
 
-## Instrucciones para Raspberry Pi
+### Raspberry Pi
 1. 
 
 
-## Instalar HoksiDockerr
+### Instalar HoksiDockerr
 
 1. Ir al directorio donde queréis instalar HoksiDockerr (ejemplo: /home/user)
 2. Clonar este git: 
-   ``$ git clone https://github.com/hoksilato2/HoksiDockerr``
+   ```
+   $ git clone https://github.com/hoksilato2/HoksiDockerr
+   ```
 3. Editar archivo con variables ".env":
-   ``$ nano ./HoksiDockerr/Composers/x64-x86/.env``
+
+  en Windows / Ubuntu:
+   ```
+   $ nano ./HoksiDockerr/Composers/x64-x86/.env
+   ```
+ en Raspi:
+   ```
+   $ nano ./HoksiDockerr/Composers/raspi-arm/.env
+   ```  
+   
 4. Cambiar los datos de VPN, IP de tu red, carpeta de configuración de las APPS y carpetas donde están tus videotecas en las siguientes variables:
 
    ```
@@ -81,18 +98,39 @@ Para otras distribuciones es muy parecido.
    
 5. Guardar con ctrl+X + y + enter
 6. Ubícate en la carpeta donde está el archivo docker-compose.yml:
-   ``$ cd ./HoksiDockerr/Composers/x64-x86/``
-7. Instalar compose:
-   ``$ docker-compose up -d``
+
+   En Win/Ubuntu:
+   ```
+   $ cd ./HoksiDockerr/Composers/x64-x86/
+   ```
+   En Raspi:
+   ```
+   $ cd ./HoksiDockerr/Composers/raspi-arm/
+   ```   
    
-Si no habéis hecho coincidir la ruta de ROOT (punto 5) con la carpeta del HoksiDockerr podéis copiar la carpeta config para ahorraros mucha configuración de las APPS:
+7. Instalar compose:
+   ```
+   $ sudo docker-compose up -d
+   ```
+   
+8. Reiniciar todos los contenedores:
+   ```
+   sudo docker restart $(sudo docker ps -a -q)
+   
+   
+Si no habéis hecho coincidir la ruta de ROOT (punto 4) con la carpeta del HoksiDockerr podéis copiar la carpeta config para ahorraros mucha configuración de las APPS:
  
-8. Parar todos los containers de docker:
-   ``$ docker stop $(docker ps -a -q)``
-9. Copiar carpeta de configuración:
-   ``$ cp ./HoksiDockerr/config /home/user/HoksiDockerr/config``
+9. Parar todos los containers de docker:
+   ```
+   $ sudo docker stop $(sudo docker ps -a -q)
+   ```
+10. Copiar carpeta de configuración:
+   ```
+   $ cp ./HoksiDockerr/config /home/user/HoksiDockerr/config
+   ```
 
 
+## Configurar Aplicaciones
 
-
+Todas las aplicaciones vienen configuradas con la IP 127.0.0.1.
 
