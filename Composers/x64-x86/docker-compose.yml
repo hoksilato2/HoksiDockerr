@@ -23,6 +23,7 @@ services:
       - WEBPROXY_ENABLED=false
     volumes:
       - ${TORRENTS}:/data
+      - ${ROOT}/config/transmission-home:/config
       - /etc/localtime:/etc/localtime:ro
     ports:
       - 9091:9091
