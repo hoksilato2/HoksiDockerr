@@ -133,3 +133,62 @@ Si no habéis hecho coincidir la ruta de ROOT (punto 4) con la carpeta del Hoksi
 
 ## Configurar Aplicaciones
 
+Para acceder a cada una de las aplicaciones lo podremos hacer mediante las siguientes direcciones:
+
+    Transmission (cliente Torrent):
+    http://localhost:9091
+
+    Jackett (indexador):
+    http://localhost:9117
+    
+    Sonarr (Buscador de Series):
+    http://localhost:8989
+    
+    Radarr (Buscador de Películas):
+    http://localhost:7878
+    
+    Bazarr (Buscador de subtítulos):
+    http://localhost:6767
+    
+    
+### Sustitución de IPs
+
+Para que las aplicaciones se vean entre ellas, deberás facilitar la dirección IP de tu equipo. Al estar dentro de Docker, no funcionará ni "localhost" ni "127.0.0.1" ya que cada contenedor es como un ordenador distinto con su propia IP. Pero no hace falta configurar cada IP dado que de manera "externa" reconocerá la IP de nuestra red local.
+
+De todas formas, si quieres saber las IPs de cada uno de los contenedores puedes usar este comando:
+
+```
+docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }} {{range .NetworkSettings.Networks}} {{.IPAddress}}{{end}}' | sed 's#^/##';
+```
+
+**Para saber la IP local de tu equipo:**
+
+en Linux: ``$ if config eth0`` (ej: inet 192.168.0.117)
+    
+en Windows: ``ipconfig | findstr /i "ipv4"`` (en CMD no en WSL. Si tienes más de una tarjeta de red, la ethernet es la primera)
+    
+
+**¿Dónde cambiar las IPs?**
+
+En Sonarr y Radarr: 
+
+*Settings > Indexers >* Entrar en cada uno de ellos y sustituir la IP que hay en el campo URL (La IP de Jackett o la local)
+
+*Settings > Download Client > Transmission > Host* (La IP de Transmission o la local)
+                               
+En Bazarr: 
+
+*Settings > Sonarr > "Hostname or IP Address"* (La IP de Sonarr o la local)
+
+*Settings > Radarr > "Hostname or IP Address"* (La IP de Radarr o la local)
+                      
+                      
+
+                      
+
+
+
+
+
+
+
