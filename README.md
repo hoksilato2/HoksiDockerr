@@ -135,20 +135,15 @@ Si no habéis hecho coincidir la ruta de ROOT (punto 4) con la carpeta del Hoksi
 
 Para acceder a cada una de las aplicaciones lo podremos hacer mediante las siguientes direcciones:
 
-    Transmission (cliente Torrent):
-    http://localhost:9091
+   **Transmission** (cliente Torrent): http://localhost:9091
 
-    Jackett (indexador):
-    http://localhost:9117
+   **Jackett** (indexador): http://localhost:9117
     
-    Sonarr (Buscador de Series):
-    http://localhost:8989
+   **Sonarr** (Buscador de Series): http://localhost:8989
     
-    Radarr (Buscador de Películas):
-    http://localhost:7878
+   **Radarr** (Buscador de Películas): http://localhost:7878
     
-    Bazarr (Buscador de subtítulos):
-    http://localhost:6767
+   **Bazarr** (Buscador de subtítulos): http://localhost:6767
     
     
 ### Sustitución de IPs
