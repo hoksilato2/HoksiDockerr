@@ -19,6 +19,7 @@ Pero en los siguientes apartados os pondré los pasos simplificándolo lo máxim
 4. Seguir indicaciones de Linux a partir del punto 3. Recomiendo usar la ruta /mnt/c/Users/username/ para guardar los archivos de configuración en vuestra C: o unidad y carpeta deseada.
 
 ### Ubuntu
+0. Puedes encontrar Docker en el repositorio Canonical. Pero si prefieres usar el repositorio Docker sigue hasta el punto 5.
 1. Instalar repositorio Docker usando el Terminal:
    ```
    $ sudo apt-get update
