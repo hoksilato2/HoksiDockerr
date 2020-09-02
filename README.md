@@ -133,5 +133,3 @@ Si no habéis hecho coincidir la ruta de ROOT (punto 4) con la carpeta del Hoksi
 
 ## Configurar Aplicaciones
 
-Todas las aplicaciones vienen configuradas con la IP 127.0.0.1.
-
