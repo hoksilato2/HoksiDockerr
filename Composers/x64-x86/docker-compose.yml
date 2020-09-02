@@ -5,6 +5,7 @@ services:
   transmission-openvpn:
     container_name: transmission-openvpn
     image: haugene/transmission-openvpn:latest
+    hostname: hd-transmission
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
@@ -40,6 +41,7 @@ services:
   jackett:
     container_name: jackett
     image: linuxserver/jackett:latest
+    hostname: hd-jackett
     restart: unless-stopped
 #    network_mode: host
     environment:
@@ -64,6 +66,7 @@ services:
   sonarr:
     container_name: sonarr
     image: linuxserver/sonarr:latest
+    hostname: hd-sonarr
     restart: unless-stopped
 #    network_mode: host
     environment:
@@ -89,6 +92,7 @@ services:
   radarr:
     container_name: radarr
     image: linuxserver/radarr:latest
+    hostname: hd-radarr
     restart: unless-stopped
 #    network_mode: host
     environment:
@@ -118,6 +122,7 @@ services:
   bazarr:
     container_name: bazarr
     image: linuxserver/bazarr
+    hostname: hd-bazarr
     restart: unless-stopped
     environment:
       - PUID=${PUID}
@@ -144,46 +149,4 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     command: --interval 300 #revisa cada 5min
-
-#  plex-server:
-#    container_name: plex-server
-#    image: plexinc/pms-docker:latest
-#    restart: unless-stopped
-#    environment:
-#      - TZ=${TZ}
-#    network_mode: host
-#    volumes:
-#      - ${ROOT}/config/plex/db:/config # plex database
-#      - ${ROOT}/config/plex/transcode:/transcode # temp transcoded files
-#      - ${MOVIES}:/movies # media library
-#      - ${TVSHOWS}:/tv
-
-
-#  glass-isc-dhcp:
-#    container_name: glass-isc-dhcp
-#   image: djaydev/glass-isc-dhcp:armv7hf
-#    restart: unless-stopped
-#    network_mode: host
-#    environment:
-#      - TZ=${TZ}
-#      - PUID=${PUID}
-#      - PGID=${PGID}
-#      - ADMINPASSWORD=glassadmin
-#      - WEBSOCKETPORT=8888
-#      - WEBADMINPORT=3000
-#    volumes:
-#      - ${ROOT}/config/glass-isc-dhcp:/etc/dhcp
-#      - ${ROOT}/config/glass-isc-dhcp/leases:/var/lib/dhcp
-#      - ${ROOT}/config/glass-isc-dhcp/log:/var/log
-#      - ${ROOT}/config/glass-isc-dhcp/glass-config:/opt/glass/config
-#    ports:
-#      - 3000:3000
-#      - 8888:8888
-#      - 67:67/udp
-#    healthcheck:
-#        test: ["CMD", "curl", "-f", "http://localhost:3000"]
-#        interval: 1m30s
-#        timeout: 10s
-#        retries: 3
-#        start_period: 40s
 
